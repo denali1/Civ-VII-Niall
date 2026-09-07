@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
-	<!-- Leader definition: Phase 2 -->
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_TRAIT"/>
+		<InsertOrIgnore Kind="KIND_VICTORY"/>
+	</Kinds>
+	<Types>
+		<Row Type="LEADER_NIALL" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_NIALL_ABILITY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_NIALL_AGENDA" Kind="KIND_TRAIT"/>
+		<Row Type="VICTORY_LEADER_NIALL" Kind="KIND_VICTORY"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_NIALL" Name="LOC_LEADER_NIALL_NAME" AITargetCityPercentage="75" IsMajorLeader="true" InheritFrom="LEADER_DEFAULT"/>
+	</Leaders>
+	<TypeQuotes>
+		<Row Type="LEADER_NIALL" Quote="LOC_MAIN_CHAR_SELECT_LEADER_NIALL_ANY"/>
+		<Row Type="VICTORY_LEADER_NIALL" Quote="LOC_VICTORY_LEADER_NIALL"/>
+	</TypeQuotes>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_NIALL_ABILITY" InternalOnly="true" Name="LOC_TRAIT_LEADER_NIALL_ABILITY_NAME" Description="LOC_TRAIT_LEADER_NIALL_ABILITY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_NIALL_AGENDA" InternalOnly="true" Name="LOC_AGENDA_NIALL_NAME" Description="LOC_AGENDA_NIALL_DESCRIPTION"/>
+	</Traits>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_NIALL" TraitType="TRAIT_LEADER_NIALL_ABILITY"/>
+		<Row LeaderType="LEADER_NIALL" TraitType="TRAIT_LEADER_NIALL_AGENDA"/>
+		<Row LeaderType="LEADER_NIALL" TraitType="TRAIT_LEADER_ATTRIBUTE_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_NIALL" TraitType="TRAIT_LEADER_ATTRIBUTE_MILITARISTIC"/>
+		<Row LeaderType="LEADER_NIALL" TraitType="TRAIT_LEADER_AGGRESSIVE"/>
+		<Row LeaderType="LEADER_NIALL" TraitType="TRAIT_AQ_MILITARY_VICTORY"/>
+		<Row LeaderType="LEADER_NIALL" TraitType="TRAIT_EX_MILITARY_VICTORY"/>
+		<Row LeaderType="LEADER_NIALL" TraitType="TRAIT_EX_ECONOMIC_VICTORY"/>
+		<Row LeaderType="LEADER_NIALL" TraitType="TRAIT_MO_CULTURE_VICTORY"/>
+	</LeaderTraits>
+	<LeaderCivPriorities>
+		<Row Leader="LEADER_NIALL" Civilization="CIVILIZATION_ROME" Priority="4"/>
+		<Row Leader="LEADER_NIALL" Civilization="CIVILIZATION_GREECE" Priority="2"/>
+		<Row Leader="LEADER_NIALL" Civilization="CIVILIZATION_EGYPT" Priority="1"/>
+	</LeaderCivPriorities>
 </Database>

@@ -23,6 +23,9 @@
 	<ActionGroups>
 		<ActionGroup id="shell-always" scope="shell" criteria="always">
 			<Actions>
+				<UpdateDatabase>
+					<Item>config/niall-config.xml</Item>
+				</UpdateDatabase>
 				<UpdateText>
 					<Item>text/leader-text.xml</Item>
 				</UpdateText>

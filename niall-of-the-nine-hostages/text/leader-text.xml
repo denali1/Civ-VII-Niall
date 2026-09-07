@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<LocalizedText>
-		<!-- Leader name, ability, Civilopedia: Phase 2 -->
+		<Replace Tag="LOC_LEADER_NIALL_NAME" Language="en_US">
+			<Text>Niall of the Nine Hostages</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_NIALL_DESCRIPTION" Language="en_US">
+			<Text>Every [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Settlement[/TIP] conquered grants [B]+1 [icon:YIELD_CULTURE] Culture[/B] and [B]+1 [icon:YIELD_PRODUCTION] Production[/B] to all his Cities, stacking over the course of the Age. The Uí Néill claim their hostages, and their bounty spreads across his realm.</Text>
+		</Replace>
+		<Replace Tag="LOC_LOADING_LEADER_INTRO_TEXT_NIALL" Language="en_US">
+			<Text>High King of the Uí Néill, ancestor of one of the most enduring dynasties in Europe. From the hills of Tara, Niall looked across the sea — and reached for what lay beyond it. Take the crown, Niall. Take your hostages, and make your name echo through the ages.</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NIALL_ABILITY_NAME" Language="en_US">
+			<Text>Naosc na Naonúir</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_NIALL_ABILITY_DESCRIPTION" Language="en_US">
+			<Text>Conquering a [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Settlement[/TIP] grants [B]+1 [icon:YIELD_CULTURE] Culture[/B] and [B]+1 [icon:YIELD_PRODUCTION] Production[/B] to all [icon:YIELD_CITIES] [TIP:LOC_PEDIA_CONCEPTS_CITIES_TOOLTIP]Cities[/TIP]. Stacks over the course of the Age.</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_NIALL_NAME" Language="en_US">
+			<Text>Blood of Kings</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_NIALL_DESCRIPTION" Language="en_US">
+			<Text>Niall respects leaders who expand through force. He has little patience for those who build monuments while leaving their borders undefended.</Text>
+		</Replace>
+		<Replace Tag="LOC_MAIN_CHAR_SELECT_LEADER_NIALL_ANY" Language="en_US">
+			<Text>A king does not trust. A king ensures.</Text>
+		</Replace>
+		<Replace Tag="LOC_VICTORY_LEADER_NIALL" Language="en_US">
+			<Text>The nine hostages kept their oaths, and the Uí Néill built a dominion the sea itself could not bound.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_NIALL_ROME_TOOLTIP" Language="en_US">
+			<Text>[B]Niall's[/B] war-bands raided the frontiers of [B]Rome's[/B] Britain for plunder and slaves.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_NIALL_GREECE_TOOLTIP" Language="en_US">
+			<Text>[B]Greece's[/B] Mediterranean lay at the far edge of the raiding sea [B]Niall[/B] sailed.</Text>
+		</Replace>
+		<Replace Tag="LOC_UNLOCK_PLAY_AS_NIALL_EGYPT_TOOLTIP" Language="en_US">
+			<Text>The wealth of [B]Egypt[/B] was legend even among the kings of [B]Niall's[/B] age.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIALL_TITLE" Language="en_US">
+			<Text>Niall of the Nine Hostages</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIALL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Niall of the Nine Hostages (Irish: Niall Noígíallach) was a High King of Ireland in the late fourth and early fifth century AD. He is the ancestor of the Uí Néill dynasty, which dominated Irish and Scottish politics for centuries after his death.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIALL_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>His sobriquet does not recall victories over nine foreign kingdoms. The nine hostages were members of Niall's own extended kin, held as political insurance so that his dynasty's internal power could not fracture. He trusted his family no further than he could compel them.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIALL_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Niall's power was built on raids carried ever farther abroad. His war-bands crossed the Irish Sea into Roman Britain, returning with tribute, plunder, and slaves — the greatest returns any Irish king had yet obtained. Traditional dating places his reign from roughly 380 to 405 AD.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIALL_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>It was on one such raid that a Romano-British teenager named Patricius was carried into servitude in Ireland. Patrick later escaped, returned as a missionary, and set about the conversion of Ireland — a consequence Niall almost certainly never intended. The slave his captains dismissed became the architect of Irish Christianity.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIALL_CHAPTER_HISTORY_PARA_5" Language="en_US">
+			<Text>The Uí Néill line held power in Ireland for five centuries, sending branches into Scotland and, far later, into the Scots-Irish diaspora of the Atlantic world. Genetic studies suggest several million men worldwide descend from Niall through the paternal line — making him one of the most successful dynasts in recorded history.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_NIALL_CHAPTER_HISTORY_PARA_6" Language="en_US">
+			<Text>Niall died sometime between 405 and 428 AD; the circumstances are unknown. No contemporary portrait survives, and every depiction of him is imagination and convention. What remains is a dynasty, a name — and a legend the size of an island.</Text>
+		</Replace>
 	</LocalizedText>
 </Database>

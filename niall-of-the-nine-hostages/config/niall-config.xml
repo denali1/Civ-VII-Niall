@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Leaders>
+		<Row LeaderType="LEADER_NIALL" LeaderName="LOC_LEADER_NIALL_NAME" LeaderDescription="LOC_LEADER_NIALL_DESCRIPTION" LeaderIcon="LEADER_NIALL" LeaderIntroText="LOC_LOADING_LEADER_INTRO_TEXT_NIALL"/>
+	</Leaders>
+	<LeaderItems>
+		<Row LeaderType="LEADER_NIALL" Type="TRAIT_LEADER_NIALL_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_LEADER_NIALL_ABILITY_NAME" Description="LOC_TRAIT_LEADER_NIALL_ABILITY_DESCRIPTION"/>
+	</LeaderItems>
+	<LeaderTags>
+		<Row LeaderType="LEADER_NIALL" TagType="TAG_TRAIT_EXPANSIONIST"/>
+		<Row LeaderType="LEADER_NIALL" TagType="TAG_TRAIT_MILITARISTIC"/>
+		<Row LeaderType="LEADER_NIALL" TagType="TAG_GENDER_MALE"/>
+		<Row LeaderType="LEADER_NIALL" TagType="TAG_ORIGIN_EUROPE_NORTH"/>
+	</LeaderTags>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_NIALL" Quote="LOC_MAIN_CHAR_SELECT_LEADER_NIALL_ANY"/>
+	</LeaderQuotes>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" LeaderDomain="StandardLeaders" LeaderType="LEADER_NIALL" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_NIALL_ROME_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_GREECE" LeaderDomain="StandardLeaders" LeaderType="LEADER_NIALL" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_NIALL_GREECE_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_EGYPT" LeaderDomain="StandardLeaders" LeaderType="LEADER_NIALL" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_NIALL_EGYPT_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE"/>
+	</LeaderCivilizationBias>
+</Database>
