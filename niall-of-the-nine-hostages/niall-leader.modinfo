@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="com.stevemcknelly.niall-leader" version="1"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>Niall of the Nine Hostages</Name>
+		<Description>Adds Niall of the Nine Hostages (Niall Noigiallach) as a playable leader for the Antiquity Age.</Description>
+		<Authors>Steve McKnelly</Authors>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<Package>Mod</Package>
+	</Properties>
+	<Dependencies>
+	</Dependencies>
+	<References>
+	</References>
+	<ActionCriteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<ActionGroup id="shell-always" scope="shell" criteria="always">
+			<Actions>
+				<UpdateText>
+					<Item>text/leader-text.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="antiquity-game" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/leader.xml</Item>
+					<Item>data/agenda.xml</Item>
+					<Item>data/ability-modifiers.xml</Item>
+					<Item>data/narrative-patrick.xml</Item>
+				</UpdateDatabase>
+				<UpdateText>
+					<Item>text/leader-text.xml</Item>
+					<Item>text/agenda-text.xml</Item>
+					<Item>text/narrative-text.xml</Item>
+				</UpdateText>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+</Mod>
